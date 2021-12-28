@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #F4E7DE;
+}
+div.block {
+	width: 1022px;
+	height: 662px;
+	position: absolute;
+	top: 28px;
+	left: 209px;
+	background-color: #FFFFFF;
+	border-radius: 27px;
+}
+div.menu {
+	width: 46px;
+	height: 392px;
+	position: absolute;
+	top: 132px;
+	left: 187px;
+	border-radius: 20px;
+	background-color: #FE7770;
+	
+}
+img.ellipse {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 15px;
+	left: 7px;
+}
+img.vector {
+	width: 8.32px;
+	height: 13.98px;
+	position: absolute;
+	top: 24px;
+	left: 18.84px;
+}
+img.ellipse2 {
+    width: 32px;
+    height: 32px;
+    position:absolute;
+    top: 58px;
+    left: 7px;
+}
+img.Eng {
+    width: 17px;
+    height: 12px;
+    position:absolute;
+    top: 68px;
+    left: 14px;
+}
+img.ellipse3 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 96px;
+    left: 7px;
+}
+img.vector2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+   top: 102px;
+   left: 13px;
+}
+img.ellipse4 {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 350px;
+    left: 7px;
+}
+img.vector3 {
+    width: 16px;
+    height: 20px;
+    position: absolute;
+    top: 356px;
+    left: 15px;
+}
