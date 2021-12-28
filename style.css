@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: Roboto;
 }
 body {
 	background-color: #F4E7DE;
@@ -10,14 +11,15 @@ main {
 	height: 662px;
 	top: 28px;
 	left: 209px;
-	background-color: #FFFFFF;
+	background-color: #F9F9F9;
 	border-radius: 27px;
 }
 main h1 {
     font-size: 24px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 28px;
+    font-weight: bold;
     display: flex;
+    font-weight: bold;
     align-items: center;
     position: absolute;
     top: 104px;
@@ -28,9 +30,8 @@ main p {
     height: 21px;
     font-weight: normal;
     font-size: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 21px;
-    color: #B9B8B8;
+    color: #939191;
     display:flex;
     align-items: center;
     position: absolute;
@@ -38,10 +39,22 @@ main p {
     left: 96px;
 }
 content {
-    
+    width: 418px;
+    height: 331px;
     position: absolute;
     top: 169px;
     left: 96px;
+    border: 1px solid #F9F9F9;
+    border-radius: 23px 23px 0 0;
+    background-color: #FFFFFF;
+}
+ li h2 {
+    padding: 10px 24px;
+    width: 113px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3B3B3B;
+    
 }
 menu {
 	width: 46px;
@@ -50,6 +63,17 @@ menu {
 	left: 187px;
 	border-radius: 20px;
 	background-color: #FE7770;
+}
+ul li {
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid #F4E7DE;
+    height: 52px;
+}
+ul li.radius {
+    border-radius: 23px 23px 0 0;
+    height: 46px;
+    
 }
 main, menu, img.ellipse, img.vector, img.ellipse2, 
 img.Eng, img.ellipse3, img.vector2, img.ellipse4, img.vector3 {
