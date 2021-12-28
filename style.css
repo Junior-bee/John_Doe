@@ -55,32 +55,40 @@ content {
     line-height: 26px;
     color: #3B3B3B;
 }
-/*li img.rectangle {
-    width: 27,16px;
-    height: 28px;border-radius: 8px;
+img.rectangle {
+    width: 27.16px;
+    height: 28px;
+    border-radius: 8px;
     position: absolute;
     top: 10px;
     right: 39.84px;
-}*/
-li.rectangle {
-    border-radius: 8px;
-    width: 27.16px;
-    height: 28px;
-    background-color: rgb(44,108,128)
-    }
-    .rectangle::before {
-        content: "+";
-        height:200px;
-        width:200px;
-        font-size:200px;
-        display:flex;
-        flex-direction:row;
-        align-items:center;
-        justify-content:center;
-        font-weight:bold;
-        font-family:courier;
-        color:white;
-    }
+}
+li img.plus {
+    position: absolute;
+    top: 16px;
+    right: 47px;
+}
+li h3 {
+    padding: 11px 63px;
+}
+li img.edit {
+    width: 25px;
+    height: 25.01px;
+    position: absolute;
+    top: 63.49px;
+    left: 26.5px;
+}
+ul li.crypto1 {
+   color: #FE7770;
+}
+li img.edit2 {
+    width: 25px;
+    height: 25.01px;
+    position: absolute;
+    top: 118.49px;
+    left: 25.31px;
+}
+
 menu {
 	width: 46px;
 	height: 392px;
