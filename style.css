@@ -5,78 +5,98 @@
 body {
 	background-color: #F4E7DE;
 }
-div.block {
+main {
 	width: 1022px;
 	height: 662px;
-	position: absolute;
 	top: 28px;
 	left: 209px;
 	background-color: #FFFFFF;
 	border-radius: 27px;
 }
-div.menu {
+main h1 {
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 104px;
+    left: 96px;
+}
+main p {
+    width: 254px;
+    height: 21px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 21px;
+    color: #B9B8B8;
+    display:flex;
+    align-items: center;
+    position: absolute;
+    top: 132px;
+    left: 96px;
+}
+content {
+    
+    position: absolute;
+    top: 169px;
+    left: 96px;
+}
+menu {
 	width: 46px;
 	height: 392px;
-	position: absolute;
 	top: 132px;
 	left: 187px;
 	border-radius: 20px;
 	background-color: #FE7770;
-	
+}
+main, menu, img.ellipse, img.vector, img.ellipse2, 
+img.Eng, img.ellipse3, img.vector2, img.ellipse4, img.vector3 {
+
+    position: absolute;
+}
+img.ellipse, img.ellipse2, img.ellipse3, img.ellipse4 {
+    width: 32px;
+	height: 32px;
 }
 img.ellipse {
-	width: 32px;
-	height: 32px;
-	position: absolute;
 	top: 15px;
 	left: 7px;
 }
 img.vector {
 	width: 8.32px;
 	height: 13.98px;
-	position: absolute;
 	top: 24px;
 	left: 18.84px;
 }
 img.ellipse2 {
-    width: 32px;
-    height: 32px;
-    position:absolute;
     top: 58px;
     left: 7px;
 }
 img.Eng {
     width: 17px;
     height: 12px;
-    position:absolute;
     top: 68px;
     left: 14px;
 }
 img.ellipse3 {
-    width: 32px;
-    height: 32px;
-    position: absolute;
     top: 96px;
     left: 7px;
 }
 img.vector2 {
     width: 20px;
     height: 20px;
-    position: absolute;
-   top: 102px;
-   left: 13px;
+    top: 102px;
+    left: 13px;
 }
 img.ellipse4 {
-    width: 32px;
-    height: 32px;
-    position: absolute;
     top: 350px;
     left: 7px;
 }
 img.vector3 {
     width: 16px;
     height: 20px;
-    position: absolute;
     top: 356px;
     left: 15px;
 }
