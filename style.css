@@ -25,6 +25,18 @@ main h1 {
     top: 104px;
     left: 96px;
 }
+/main h2 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    position: absolute;
+    top: 39px;
+    right: 137px;
+    
+}
 main p {
     width: 254px;
     height: 21px;
@@ -38,6 +50,12 @@ main p {
     top: 132px;
     left: 96px;
 }
+main div.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #FE7770;
+}
 content {
     width: 418px;
     height: 331px;
@@ -48,14 +66,15 @@ content {
     border-radius: 23px 23px 0 0;
     background-color: #FFFFFF;
 }
- li h2 {
-    padding: 10px 24px;
+main ul li h2.title {
+    margin-top: 10px;
+    margin-left: 24px;
     width: 113px;
     font-size: 20px;
     line-height: 26px;
     color: #3B3B3B;
 }
-img.rectangle {
+ul li img.rectangle {
     width: 27.16px;
     height: 28px;
     border-radius: 8px;
@@ -78,12 +97,12 @@ ul li.crypto img.vector {
     top: 64.29px;
     left: 354.36px;
 }
-li img.plus {
+ul li img.plus {
     position: absolute;
     top: 16px;
     right: 47px;
 }
-li h3 {
+ul li h3 {
     padding: 11px 63px;
 }
 ul li.crypto img.edit {
@@ -125,6 +144,23 @@ ul li.active img.vector {
     top: 118.5px;
     left: 354.5px;
 }
+ div.white {
+    width: 12px;
+    height: 278px;
+    border: 1px solid #F4E7DE;
+    position: absolute;
+    top: 52px;
+    left: 406px;
+ }
+ div.red {
+    width: 12px;
+    height: 175px;
+    border:1px solid #F4E7DE;
+    background-color: #FE7770;
+    position:absolute;
+    top: 52px;
+    left: 406px;
+ }
 menu {
 	width: 46px;
 	height: 392px;
