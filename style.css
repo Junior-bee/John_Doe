@@ -7,225 +7,64 @@ body {
 	background-color: #F4E7DE;
 }
 main {
-	width: 1022px;
-	height: 662px;
-	top: 28px;
-	left: 209px;
-	background-color: #F9F9F9;
-	border-radius: 27px;
+    border: 1px solid green;   /*Убрать границу*/
+    width: 1022px;
+    height: 662px;
+    margin: 39px auto;
+    border-radius: 27px;
+    background-color: white;
+    position: relative;
 }
-main h1 {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: bold;
-    display: flex;
-    font-weight: bold;
-    align-items: center;
-    position: absolute;
-    top: 104px;
-    left: 96px;
-}
-main h2.title {
+main h2 {
+    width: 113px;
+    line-height: 25.78px;
     font-size: 22px;
-    line-height: 26px;
-    font-weight: bold;
-    display: flex;
-    font-weight: bold;
-    align-items: center;
-    position: absolute;
-    top: 39px;
-    right: 137px;
-    
+    margin: 39px 772px;
 }
-main p {
-    width: 254px;
-    height: 21px;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
-    color: #939191;
-    display:flex;
-    align-items: center;
-    position: absolute;
-    top: 132px;
-    left: 96px;
-}
-main div.logo {
+div.logo {
     width: 42px;
     height: 42px;
     border-radius: 50%;
     background-color: #FE7770;
-}
-content {
-    width: 418px;
-    height: 331px;
     position: absolute;
-    top: 169px;
-    left: 96px;
-    border: 1px solid #F5E9E2;
-    border-radius: 23px 23px 0 0;
-    background-color: #FFFFFF;
+    top: 33px;
+    left: 880px;
 }
-main ul h2 {
-    margin-top: 10px;
-    margin-left: 24px;
-    width: 113px;
-    font-size: 20px;
-    line-height: 26px;
-    color: #3B3B3B;
-}
-ul li img.rectangle {
-    width: 27.16px;
-    height: 28px;
-    border-radius: 8px;
+img.vector_hair {
+    width: 10.9px;
+    height: 9.14px;
     position: absolute;
-    top: 10px;
-    right: 39.84px;
+    top: 6.05px;
+    left: 16.48px;
 }
-ul li.crypto img {
-    width: 27.16px;
-    height: 28px;
-    border-radius: 8px;
+img.vector_face {
+    width: 9.34px;
+    height: 17.4px;
     position: absolute;
-    top: 62px;
-    left: 351px;
+    /*top: 5.99px;*/
+    left: 20px;
 }
-ul li.crypto img.vector {
-    width: 19.29px;
-    height: 21.43px;
-    position: absolute;
-    top: 64.29px;
-    left: 354.36px;
-}
-ul li img.plus {
-    position: absolute;
-    top: 16px;
-    right: 47px;
-}
-ul li h3 {
-    padding: 11px 63px;
-}
-ul li.crypto img.edit {
-    width: 25px;
-    height: 25.01px;
-    position: absolute;
-    top: 63.49px;
-    left: 26.5px;
-}
-ul li.active {
-background-color: #FE7770;
-color: white;
-}
-ul li.active img.edit {
-    width: 25px;
-    height: 25.01px;
-    position: absolute;
-    top: 118.49px;
-    left: 25.31px;
-}
-li img.edit2 {
-    width: 25px;
-    height: 25.01px;
-    position: absolute;
-    top: 118.49px;
-    left: 25.31px;
-}
-ul li.active img.rectangle {
-    width: 25px;
-    height: 25.01px;
-    position: absolute;
-    top: 116.29px;
-    left: 352px;
-}
-ul li.active img.vector {
-    width: 19.29px;
-    height: 21.43px;
-    position: absolute;
-    top: 118.5px;
-    left: 354.5px;
-}
- div.white {
-    width: 12px;
-    height: 278px;
-    border: 1px solid #F4E7DE;
-    position: absolute;
-    top: 52px;
-    left: 406px;
- }
- div.red {
-    width: 12px;
-    height: 175px;
-    border:1px solid #F4E7DE;
-    background-color: #FE7770;
-    position:absolute;
-    top: 52px;
-    left: 406px;
- }
-menu {
-	width: 46px;
-	height: 392px;
-	top: 132px;
-	left: 187px;
-	border-radius: 20px;
-	background-color: #FE7770;
-}
-ul li {
-    list-style-type: none;
-    display: flex;
-    border-bottom: 1px solid #F4E7DE;
-    height: 52px;
-}
-ul li.radius {
-    border-radius: 23px 23px 0 0;
-    height: 46px;
-    
-}
-main, menu, img.ellipse, img.vector, img.ellipse2, 
-img.Eng, img.ellipse3, img.vector2, img.ellipse4, img.vector3 {
 
-    position: absolute;
-}
-img.ellipse, img.ellipse2, img.ellipse3, img.ellipse4 {
-    width: 32px;
-	height: 32px;
-}
-img.ellipse {
-	top: 15px;
-	left: 7px;
-}
-img.vector {
-	width: 8.32px;
-	height: 13.98px;
-	top: 24px;
-	left: 18.84px;
-}
-img.ellipse2 {
-    top: 58px;
-    left: 7px;
-}
-img.Eng {
-    width: 17px;
-    height: 12px;
-    top: 68px;
-    left: 14px;
-}
-img.ellipse3 {
-    top: 96px;
-    left: 7px;
-}
-img.vector2 {
-    width: 20px;
-    height: 20px;
-    top: 102px;
-    left: 13px;
-}
-img.ellipse4 {
-    top: 350px;
-    left: 7px;
-}
-img.vector3 {
-    width: 16px;
-    height: 20px;
-    top: 356px;
-    left: 15px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
