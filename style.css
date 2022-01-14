@@ -15,11 +15,12 @@ main {
     background-color: white;
     position: relative;
 }
-main h2 {
+main h1.name {
     width: 113px;
     line-height: 25.78px;
     font-size: 22px;
     margin: 39px 772px;
+    
 }
 div.logo {
     width: 42px;
@@ -34,23 +35,101 @@ img.vector_hair {
     width: 10.9px;
     height: 9.14px;
     position: absolute;
-    top: 6.05px;
+    top: 8.5px;
     left: 16.48px;
+    z-index: 1;
 }
 img.vector_face {
     width: 9.34px;
     height: 17.4px;
     position: absolute;
-    /*top: 5.99px;*/
-    left: 20px;
+    top: 8.5px;
+    left: 16.95px;
+}
+img.vector_left {
+    width: 12.09px;
+    height: 16.23px;
+    position: absolute;
+    top: 26px;
+    left: 8.49px;
+}
+img.vector_right {
+    width: 12.09px;
+    height: 16.23px;
+    position: absolute;
+    top: 26px;
+    right: 6.11px;
+}
+main h2.title {
+    width: 61px;
+    font-size: 24px;
+    line-height: 28.13px;
+    white-space: pre;
+    margin: 25px 760px;
+}
+main img.ellipse_pink {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    position: absolute;
+    top: 169px;
+    right: 126px;
+}
+main img.ellipse_orange {
+    position:absolute;
+    top: 169px;
+    left: 621px;
+}
+main img.ellipse_red {
+    position: absolute;
+    top: 171px;
+    right: 126px;
+}
+ p.ellipse_orange {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+    color: rgb(255 255 255);
+    position: absolute;
+    top: 236px;
+    left: 648px;
+}
+ p.ellipse_pink{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+    color: rgb(255 255 255);
+    position: absolute;
+    top: 398px;
+    right: 291px;
+}
+p.ellipse_red{
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 320px;
+    right: 134px;
+}
+p.text {
+    width: 148px;
+    margin: 323px 673px; /* не совпал размер с фигмой*/
+    color: rgba(147, 145, 145, 1);
+    line-height: 21px;
+    font-size: 18px;
+}
+img.gear-red {
+    width: 27.5px;
+    height: 27.5px;
+    position: absolute;
+    top: 449.7px;
+    left: 832.75px;
 }
 
-
-
-
-
-
-
+main h2.subtitle {
+    
+}
 
 
 
