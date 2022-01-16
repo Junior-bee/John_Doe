@@ -2,11 +2,12 @@
 	margin: 0;
 	padding: 0;
 	font-family: Roboto;
+    box-sizing: border-box;
 }
 body {
 	background-color: #F4E7DE;
 }
-main {
+div.wrapper {
     border: 1px solid green;   /*Убрать границу*/
     width: 1022px;
     height: 662px;
@@ -15,12 +16,14 @@ main {
     background-color: white;
     position: relative;
 }
-main h1.name {
+container {
+    display: flex;
+}
+header h1.name {
     width: 113px;
     line-height: 25.78px;
     font-size: 22px;
     margin: 39px 772px;
-    
 }
 div.logo {
     width: 42px;
@@ -60,6 +63,55 @@ img.vector_right {
     top: 26px;
     right: 6.11px;
 }
+header {
+    border: 1px solid blue; /*Убрать границу*/
+}
+menu {
+    border: 1px solid orangered;
+    width: 522px;
+}
+menu p {
+    width: 254px;
+    line-height: 21px;
+    color:#939191;
+    margin-left: 96px;
+}
+nav {
+    border: 1px solid #F4E7DE;
+    width: 418px;
+    margin-left: 96px;
+    height: 331px; /*Убрать высоту*/
+}
+nav ul {
+    list-style-type: none;
+    border: 1px solid pink;
+}
+nav ul li {
+    border-bottom: 1px solid #F4E7DE;
+}
+ul li h1 {
+    color:#3B3B3B;
+    font-size: 22px;
+
+}
+content {
+    width: 522px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 main h2.title {
     width: 61px;
     font-size: 24px;
@@ -112,7 +164,7 @@ p.ellipse_red{
     top: 320px;
     right: 134px;
 }
-p.text {
+main p.text {
     width: 148px;
     margin: 323px 673px; /* не совпал размер с фигмой*/
     color: rgba(147, 145, 145, 1);
@@ -126,8 +178,14 @@ img.gear-red {
     top: 449.7px;
     left: 832.75px;
 }
-
-main h2.subtitle {
+menu h1.title {
+    width: 179px;
+    font-size: 24px;
+    line-height: 28.13px;
+    white-space: pre;
+    margin: 0 96px;
+    border: 1px solid red;
+    
     
 }
 
