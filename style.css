@@ -7,20 +7,22 @@ body {
 	background-color: #F4E7DE;
 }
 main {
-    border: 1px solid green;   /*Убрать границу*/
     width: 1022px;
-    height: 662px;
-    margin: 39px auto;
+    height: 662px; /*попробовать убрать высоту*/
     border-radius: 27px;
     background-color: white;
+    margin: 28px auto;
     position: relative;
 }
-main h1.name {
-    width: 113px;
-    line-height: 25.78px;
+div.title {
+    display: flex;
+}
+.title h1 {
     font-size: 22px;
-    margin: 39px 772px;
-    
+    margin-left: 772px;
+    margin-top: 39px;
+    width: 113px;
+    text-align: center;
 }
 div.logo {
     width: 42px;
@@ -28,8 +30,8 @@ div.logo {
     border-radius: 50%;
     background-color: #FE7770;
     position: absolute;
-    top: 33px;
-    left: 880px;
+    top: 33px; /*не совпал размер с figma*/
+    left: 890px;
 }
 img.vector_hair {
     width: 10.9px;
@@ -60,13 +62,49 @@ img.vector_right {
     top: 26px;
     right: 6.11px;
 }
-main h2.title {
-    width: 61px;
-    font-size: 24px;
-    line-height: 28.13px;
-    white-space: pre;
-    margin: 25px 760px;
+div.subtitle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
 }
+.subtitle .left {
+    width: 179px;
+    margin-left: 96px;
+}
+.subtitle .right {
+    margin-left: 480px; /*не совпадает с figma*/
+}
+.sum {
+    margin-left: 16px;
+}
+main p {
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(147, 145, 145, 1);
+    margin-left: 96px;
+}
+sidebar {
+    width: 46px;
+    height: 392px;
+    border-radius: 20px;
+    background-color: #FE7770;
+    position:absolute;
+    top: 124px; /* не совпадает с figma*/
+    left: 147px;
+}
+ div.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(244, 231, 222, 1);
+    position:absolute;
+    top: 15px;
+    left: 4.5px;
+    z-index: 1;
+    border: 2px solid red;
+    
+}
+/*
 main img.ellipse_pink {
     width: 275px;
     height: 275px;
@@ -112,24 +150,15 @@ p.ellipse_red{
     top: 320px;
     right: 134px;
 }
-p.text {
-    width: 148px;
-    margin: 323px 673px; /* не совпал размер с фигмой*/
-    color: rgba(147, 145, 145, 1);
-    line-height: 21px;
-    font-size: 18px;
-}
+
 img.gear-red {
     width: 27.5px;
     height: 27.5px;
     position: absolute;
     top: 449.7px;
     left: 832.75px;
-}
+}*/
 
-main h2.subtitle {
-    
-}
 
 
 
