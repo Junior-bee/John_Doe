@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Roboto;
+    box-sizing: border-box;
 }
 body {
 	background-color: #F4E7DE;
@@ -147,7 +148,7 @@ sidebar {
     position: absolute;
     top: 350px;
     left: 7px;
- }
+}
 .Vector_3 {
    width: 20px;
    height: 20px;
@@ -164,7 +165,6 @@ nav {
     border-radius: 25px 25px 0 0;
     border: 1px solid #F4E7DE;
 }
-
 ul li {
     list-style-type: none;
     border-bottom: 1px solid #F4E7DE;
@@ -236,14 +236,7 @@ p.ellipse_red{
     top: 320px;
     right: 134px;
 }
-
-img.gear-red {
-    width: 27.5px;
-    height: 27.5px;
-    position: absolute;
-    top: 449.7px;
-    left: 832.75px;
-}*/
+<<<<< HEAD
 
 
 
