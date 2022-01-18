@@ -8,11 +8,14 @@ body {
 }
 main {
     width: 1022px;
-    height: 662px; /*попробовать убрать высоту*/
+    height: 662px; 
     border-radius: 27px;
     background-color: white;
-    margin: 28px auto;
-    position: relative;
+    position: absolute;
+    top: 28px;
+    left: 209px;
+    right: 209px;
+    bottom: 45px;
 }
 div.title {
     display: flex;
@@ -62,16 +65,16 @@ img.vector_right {
     top: 26px;
     right: 6.11px;
 }
-div.subtitle {
+section {
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
+    margin-top: 30px; /*не совпадает с figma*/
 }
-.subtitle .left {
+section .left {
     width: 179px;
     margin-left: 96px;
 }
-.subtitle .right {
+section .right {
     margin-left: 480px; /*не совпадает с figma*/
 }
 .sum {
@@ -88,22 +91,105 @@ sidebar {
     height: 392px;
     border-radius: 20px;
     background-color: #FE7770;
-    position:absolute;
-    top: 124px; /* не совпадает с figma*/
-    left: 147px;
+    position: absolute;
+    top: 132px; /* не совпадает с figma*/
+    left: 187px;
 }
- div.circle {
+.circle_1 {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color: rgba(244, 231, 222, 1);
-    position:absolute;
+    position: absolute;
     top: 15px;
-    left: 4.5px;
-    z-index: 1;
-    border: 2px solid red;
-    
+    left: 7px;
+ }
+ .Vector_1 {
+     width: 8.32px;
+     height: 13.98px;
+     position: absolute;
+     top: 24.01px;
+     left: 18.84px;
+ }
+.circle_2 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 58px;
+    left: 7px;
+ }
+ .Eng {
+    width: 17px;
+    height: 12px;
+    position: absolute;
+    top: 68px;
+    left: 14px;
+ }
+ .circle_3 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 96px;
+    left: 7px;
+ }
+ .Vector_2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 102px;
+    left: 13px;
 }
+.circle_4 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 7px;
+ }
+.Vector_3 {
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   top: 356px;
+   left: 13px;  /* не совпадает с figma*/
+}
+nav {
+    /*display: flex;
+    flex-direction: column;*/
+    width: 418px;
+    height: 331px; /*убрать высоту*/
+    margin: 16px 96px;
+    border-radius: 25px 25px 0 0;
+    border: 1px solid #F4E7DE;
+}
+
+ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #F4E7DE;
+    display: flex;
+    flex-direction: row;
+}
+ul .button {
+    width: 27.16px;
+    height: 28px;
+    border-radius: 8px;
+    background-color: rgba(252, 119, 112, 1);
+}
+li h2 {
+    margin: 10px 24px;
+}
+li h3 {
+    margin-top: 11px;
+}
+img.vector {
+    margin: 14px 25.5px;
+}
+
+
+
+
 /*
 main img.ellipse_pink {
     width: 275px;
