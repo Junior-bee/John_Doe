@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+    box-sizing: border-box;
+}
+body {
+	background-color: #F4E7DE;
+}
+.wrapper {
+    border: 1px solid blue;
+}
+main {
+    width: 1022px;
+    height: 662px; 
+    border-radius: 27px;
+    background-color: white;
+    position: absolute;
+    top: 28px;
+    left: 209px;
+    right: 209px;
+    bottom: 45px; 
+}
+div.title {
+    display: flex;
+}
+.title h1 {
+    font-size: 22px;
+    margin-left: 772px;
+    margin-top: 39px;
+    width: 113px;
+    text-align: center;
+}
+div.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #FE7770;
+    position: absolute;
+    top: 33px; /*не совпал размер с figma*/
+    left: 890px;
+}
+img.vector_hair {
+    width: 10.9px;
+    height: 9.14px;
+    position: absolute;
+    top: 8.5px;
+    left: 16.48px;
+    z-index: 1;
+}
+img.vector_face {
+    width: 9.34px;
+    height: 17.4px;
+    position: absolute;
+    top: 8.5px;
+    left: 16.95px;
+}
+img.vector_left {
+    width: 12.09px;
+    height: 16.23px;
+    position: absolute;
+    top: 26px;
+    left: 8.49px;
+}
+img.vector_right {
+    width: 12.09px;
+    height: 16.23px;
+    position: absolute;
+    top: 26px;
+    right: 6.11px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px; /*не совпадает с figma*/
+}
+section .left {
+    width: 179px;
+    margin-left: 96px;
+}
+section .right {
+    margin-left: 480px; /*не совпадает с figma*/
+}
+.sum {
+    margin-left: 16px;
+}
+main p {
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(147, 145, 145, 1);
+    margin-left: 96px;
+}
+sidebar {
+    width: 46px;
+    height: 392px;
+    border-radius: 20px;
+    background-color: #FE7770;
+    position: absolute;
+    top: 132px; /* не совпадает с figma*/
+    left: 187px;
+}
+.circle_1 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 7px;
+ }
+ .Vector_1 {
+     width: 8.32px;
+     height: 13.98px;
+     position: absolute;
+     top: 24.01px;
+     left: 18.84px;
+ }
+.circle_2 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 58px;
+    left: 7px;
+ }
+ .Eng {
+    width: 17px;
+    height: 12px;
+    position: absolute;
+    top: 68px;
+    left: 14px;
+ }
+ .circle_3 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 96px;
+    left: 7px;
+ }
+ .Vector_2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 102px;
+    left: 13px;
+}
+.circle_4 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 7px;
+}
+.Vector_3 {
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   top: 356px;
+   left: 13px;  /* не совпадает с figma*/
+}
+nav {
+    width: 334px;
+    height: 331px; 
+    margin: 16px 96px;
+    border-radius: 25px 25px 0 0;
+    border: 1px solid #F4E7DE;
+}
+ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #F4E7DE;
+    display: flex;
+    flex-direction: row;
+}
+ul .button, .button_1 {
+    width: 27.16px;
+    height: 28px;
+    border-radius: 8px;
+    background-color: rgba(252, 119, 112, 1);
+}
+.button_1 {
+    width: 30px;
+    height: 30px;
+}
+li.active {
+    background-color: #FE7770;
+    color: rgba(249, 249, 249, 1);
+}
+.active .button_1 {
+    background-color: rgba(249, 249, 249, 1);
+}
+li h2 {
+    margin: 10px 24px;
+}
+img.plus {
+    margin: 7px;
+}
+li h3 {
+    margin-top: 11px;
+    font-weight: normal;
+}
+img.vector {
+    margin: 14px 25.5px;
+}
+.button {
+   margin-top: 10px;   /*если писать свойство сокращение margin - элемент почему-то меняет размеры*/
+   margin-left: 214px;
+}
+.button_1 {
+    margin-top: 11px;
+    margin-left: 232px; /*не совпадает с figma*/
+}
+.button_1 img, .active .button_1 img {
+    margin: 4.29px 5.36px;
+}
+.ellipse_pink {
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    top: 169px;
+    left: 621px;
+}
+.ellipse_orange {
+    position: absolute;
+    top: 169px;
+    left: 621px;
+}
+.ellipse_red {
+    position:absolute;
+    top: 171px;
+    left: 736px;
+}
+p.ellipse_orange {
+    position: absolute;
+    top: 236px; 
+    left: 550px; /*не совпадает с figma*/
+}
+
+p.ellipse_pink {
+    position: absolute;
+    top: 398px;
+    left: 612px; /*не совпадает с figma*/
+}
+p.ellipse_red {
+    position:absolute;
+    top: 320px;
+    left: 750px;
+}
+p.ellipse_pink, p.ellipse_red, p.ellipse_orange {
+    color:rgba(249, 249, 249, 1);
+    font-size: 20px; /*не совпадает с figma*/
+    /*не совпадает с figma получается жирным*/
+    font-weight: normal;
+}
+ p.text {
+    margin-top: -55px;
+    margin-left: 670px;
+}
+img.text {
+    position:absolute;
+    top: 450px;
+    left: 827px;
+}
