@@ -161,7 +161,7 @@ sidebar {
 }
 nav {
     width: 418px;
-    height: 331px; /*убрать высоту*/
+    height: 331px; 
     margin: 16px 96px;
     border-radius: 25px 25px 0 0;
     border: 1px solid #F4E7DE;
@@ -252,23 +252,12 @@ p.ellipse_pink, p.ellipse_red, p.ellipse_orange {
     /*не совпадает с figma получается жирным*/
     font-weight: normal;
 }
-.text {
-    display: flex;
-    flex-direction: row;
+ p.text {
+    margin-top: -55px;
+    margin-left: 670px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img.text {
+    position:absolute;
+    top: 450px;
+    left: 827px;
+}
