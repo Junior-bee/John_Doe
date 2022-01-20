@@ -7,6 +7,9 @@
 body {
 	background-color: #F4E7DE;
 }
+.wrapper {
+    border: 1px solid blue;
+}
 main {
     width: 1022px;
     height: 662px; 
@@ -16,7 +19,7 @@ main {
     top: 28px;
     left: 209px;
     right: 209px;
-    bottom: 45px;
+    bottom: 45px; 
 }
 div.title {
     display: flex;
@@ -157,8 +160,6 @@ sidebar {
    left: 13px;  /* не совпадает с figma*/
 }
 nav {
-    /*display: flex;
-    flex-direction: column;*/
     width: 418px;
     height: 331px; /*убрать высоту*/
     margin: 16px 96px;
@@ -171,74 +172,90 @@ ul li {
     display: flex;
     flex-direction: row;
 }
-ul .button {
+ul .button, .button_1 {
     width: 27.16px;
     height: 28px;
     border-radius: 8px;
     background-color: rgba(252, 119, 112, 1);
 }
+.button_1 {
+    width: 30px;
+    height: 30px;
+}
+li.active {
+    background-color: #FE7770;
+    color: rgba(249, 249, 249, 1);
+}
+.active .button_1 {
+    background-color: rgba(249, 249, 249, 1);
+}
 li h2 {
     margin: 10px 24px;
 }
+img.plus {
+    margin: 7px;
+}
 li h3 {
     margin-top: 11px;
+    font-weight: normal;
 }
 img.vector {
     margin: 14px 25.5px;
 }
-
-
-
-
-/*
-main img.ellipse_pink {
+.button {
+   margin-top: 10px;   /*если писать свойство сокращение margin - элемент почему-то меняет размеры*/
+   margin-left: 214px;
+}
+.button_1 {
+    margin-top: 11px;
+    margin-left: 232px; /*не совпадает с figma*/
+}
+.button_1 img, .active .button_1 img {
+    margin: 4.29px 5.36px;
+}
+.ellipse_pink {
     width: 275px;
     height: 275px;
-    border-radius: 50%;
     position: absolute;
-    top: 169px;
-    right: 126px;
-}
-main img.ellipse_orange {
-    position:absolute;
     top: 169px;
     left: 621px;
 }
-main img.ellipse_red {
+.ellipse_orange {
     position: absolute;
+    top: 169px;
+    left: 621px;
+}
+.ellipse_red {
+    position:absolute;
     top: 171px;
-    right: 126px;
+    left: 736px;
 }
- p.ellipse_orange {
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: normal;
-    color: rgb(255 255 255);
+p.ellipse_orange {
     position: absolute;
-    top: 236px;
-    left: 648px;
+    top: 236px; 
+    left: 550px; /*не совпадает с figma*/
 }
- p.ellipse_pink{
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: normal;
-    color: rgb(255 255 255);
+
+p.ellipse_pink {
     position: absolute;
     top: 398px;
-    right: 291px;
+    left: 612px; /*не совпадает с figma*/
 }
-p.ellipse_red{
-    font-size: 20px;
-    line-height: 23px;
-    font-weight: normal;
-    color: rgba(255, 255, 255, 1);
-    position: absolute;
+p.ellipse_red {
+    position:absolute;
     top: 320px;
-    right: 134px;
+    left: 750px;
 }
-<<<<< HEAD
-
-
+p.ellipse_pink, p.ellipse_red, p.ellipse_orange {
+    color:rgba(249, 249, 249, 1);
+    font-size: 20px; /*не совпадает с figma*/
+    /*не совпадает с figma получается жирным*/
+    font-weight: normal;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
