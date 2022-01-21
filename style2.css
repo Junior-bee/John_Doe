@@ -204,11 +204,11 @@ img.vector {
 }
 .button {
    margin-top: 10px;   /*если писать свойство сокращение margin - элемент почему-то меняет размеры*/
-   margin-left: 214px;
+   margin-left: 133px;
 }
 .button_1 {
     margin-top: 11px;
-    margin-left: 232px; /*не совпадает с figma*/
+    margin-left: 150px; /*не совпадает с figma*/
 }
 .button_1 img, .active .button_1 img {
     margin: 4.29px 5.36px;
