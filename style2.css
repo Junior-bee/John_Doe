@@ -76,10 +76,10 @@ section {
 }
 section .left {
     width: 179px;
-    margin-left: 96px;
+    margin-left: 160px;
 }
 section .right {
-    margin-left: 480px; /*не совпадает с figma*/
+    margin-left: 420px; /*не совпадает с figma*/
 }
 .sum {
     margin-left: 16px;
@@ -88,31 +88,31 @@ main p {
     font-size: 18px;
     line-height: 21px;
     color: rgba(147, 145, 145, 1);
-    margin-left: 96px;
+    margin-left: 163px;
 }
 sidebar {
-    width: 46px;
+    width: 158px;
     height: 392px;
     border-radius: 20px;
     background-color: #FE7770;
     position: absolute;
     top: 132px; /* не совпадает с figma*/
-    left: 187px;
+    left: 165px;
 }
 .circle_1 {
     width: 32px;
     height: 32px;
     border-radius: 50%;
     position: absolute;
-    top: 15px;
-    left: 7px;
+    top: 16px;
+    left: 145px;
  }
  .Vector_1 {
      width: 8.32px;
      height: 13.98px;
      position: absolute;
-     top: 24.01px;
-     left: 18.84px;
+     top: 25.01px;
+     left: 156px;
  }
 .circle_2 {
     width: 32px;
@@ -129,40 +129,55 @@ sidebar {
     top: 68px;
     left: 14px;
  }
- .circle_3 {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    position: absolute;
-    top: 96px;
-    left: 7px;
- }
- .Vector_2 {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 102px;
-    left: 13px;
+div.pref {
+    width: 149px;
+    margin: 95px 5px;
+    border: 1px solid white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
 }
-.circle_4 {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    position: absolute;
-    top: 350px;
-    left: 7px;
-}
-.Vector_3 {
+.Vector_2 {
+   margin: 6px 0 6px 25px;
    width: 20px;
    height: 20px;
-   position: absolute;
-   top: 356px;
-   left: 13px;  /* не совпадает с figma*/
 }
+.pref P, .hover p, .log_out p{
+   margin: 6px 9px 6px;
+   font-size: 14px;
+   color: white;
+}
+.hover p {
+    color: rgba(254, 119, 112, 1);
+}
+div.hover {
+    width: 149px;
+    margin: 5px 5px;
+    border: 1px solid white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-bottom: 0;
+}
+div.log_out {
+    width: 140px;
+    margin: 180px 10px;
+    border: 1px solid white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.Vector_3 {
+    margin: 6px 0 6px 20px;
+    width: 20px;
+    height: 20px;
+ }
 nav {
     width: 334px;
     height: 331px; 
-    margin: 16px 96px;
+    margin: 16px 160px;
     border-radius: 25px 25px 0 0;
     border: 1px solid #F4E7DE;
 }
@@ -232,19 +247,19 @@ img.vector {
 }
 p.ellipse_orange {
     position: absolute;
-    top: 236px; 
-    left: 550px; /*не совпадает с figma*/
+    top: 230px; 
+    left: 490px; /*не совпадает с figma*/
 }
 
 p.ellipse_pink {
     position: absolute;
     top: 398px;
-    left: 612px; /*не совпадает с figma*/
+    left: 540px; /*не совпадает с figma*/
 }
 p.ellipse_red {
     position:absolute;
-    top: 320px;
-    left: 750px;
+    top: 325px;
+    left: 690px;
 }
 p.ellipse_pink, p.ellipse_red, p.ellipse_orange {
     color:rgba(249, 249, 249, 1);
@@ -260,4 +275,17 @@ img.text {
     position:absolute;
     top: 450px;
     left: 827px;
+}
+.scroll {
+    width: 9.59px;
+    height: 285px;
+    border: 1px solid #F4E7DE;
+    position: absolute;
+    top: 240px;
+    left: 693px; /*не совпадает с figma*/
+}
+.scroll .pink {
+    width: 8.79;
+    height: 178px;
+    background-color: #FE7770;;
 }
