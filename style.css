@@ -5,16 +5,13 @@
     box-sizing: border-box;
 }
 body {
-	background-color: #F4E7DE;
-}
-.wrapper {
-    border: 1px solid blue;
+	background-color: rgba(244, 231, 222, 1);
 }
 main {
     width: 1022px;
     height: 662px; 
     border-radius: 27px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
     position: absolute;
     top: 28px;
     left: 209px;
@@ -35,7 +32,7 @@ div.logo {
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background-color: #FE7770;
+    background-color: rgba(252, 119, 112, 1);
     position: absolute;
     top: 33px; /*не совпал размер с figma*/
     left: 890px;
@@ -94,7 +91,7 @@ sidebar {
     width: 46px;
     height: 392px;
     border-radius: 20px;
-    background-color: #FE7770;
+    background-color: rgba(252, 119, 112, 1);
     position: absolute;
     top: 132px; /* не совпадает с figma*/
     left: 187px;
@@ -164,11 +161,11 @@ nav {
     height: 331px; 
     margin: 16px 96px;
     border-radius: 25px 25px 0 0;
-    border: 1px solid #F4E7DE;
+    border: 1px solid rgba(244, 231, 222, 1);
 }
 ul li {
     list-style-type: none;
-    border-bottom: 1px solid #F4E7DE;
+    border-bottom: 1px solid rgba(244, 231, 222, 1);
     display: flex;
     flex-direction: row;
 }
@@ -183,7 +180,7 @@ ul .button, .button_1 {
     height: 30px;
 }
 li.active {
-    background-color: #FE7770;
+    background-color: rgba(252, 119, 112, 1);
     color: rgba(249, 249, 249, 1);
 }
 .active .button_1 {
@@ -260,4 +257,17 @@ img.text {
     position:absolute;
     top: 450px;
     left: 827px;
+}
+.scroll {
+    width: 12px;
+    height: 280px;
+    border: 1px solid rgba(244, 231, 222, 1);
+    position: absolute;
+    top: 240px;
+    left: 710px;
+}
+.scroll .pink {
+    width: 11px;
+    height: 178px;
+    background-color: rgba(252, 119, 112, 1);;
 }
